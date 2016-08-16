@@ -1,8 +1,11 @@
 import time
 import numpy as np
-from Tkinter import *
+from app.helper import *
 
-from helper import *
+try:
+    from tkinter import *
+except ImportError:
+    from Tkinter import *
 
 
 class GravitationalSystemDrawer:

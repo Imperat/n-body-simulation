@@ -1,7 +1,7 @@
-from window import GravitationalSystemDrawer
-from models import GravitationalSystem
+from app.window import GravitationalSystemDrawer
+from app.models import GravitationalSystem
 # noinspection PyPep8Naming
-from config import GravitationalSystemConfig as gsc, AppConfig as ac
+from app.config import GravitationalSystemConfig as gsc, AppConfig as ac
 
 
 class App:
